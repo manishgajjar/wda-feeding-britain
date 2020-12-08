@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background:fuchsia;
+}
+
+main{
+    width:calc(75% - 60px);
+    float:left;
+    padding:30px;
+    background:white;
+}
+aside{
+    width: calc(25% - 60px);
+    float: left;
+    border-left: none;
+    padding:30px;
+    background:white;
+}
+footer{
+    clear:both;
+    padding:30px;
+    background:white;
+}
+
+.logoContainer{
+    float:left;
+    width:200px;
+}
+
+.logoContainer .logo{
+    max-width:100%;
+}
+
+nav{
+    float:right;
+}
+
+ul{
+    list-style-type: none;
+    background:red;
+}
+
+li{
+    display:inline-block;
+    padding:10px 20px;
+}
+
+li:hover{
+    background:green;
+}
+
+nav li a{
+    color:white;
+}
+
+li.active{
+    background:goldenrod;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.heroImage{
+    width:100%;
+}
+
+.heroImage .imageContainer{
+    height:300px;
+    max-height:300px;
+    background-image:url('https://images.pexels.com/photos/1551440/pexels-photo-1551440.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    position:relative;
+}
+
+.heroImage .imageContainer .imageCaption{
+    position:absolute;
+    padding:20px;
+    background:black;
+    color:white;
+    bottom:30px;
+    left:30px;
+}
+
+.mainContentContainer{
+    max-width:500px;
+    margin:0 auto;
+    background:white;
+}
